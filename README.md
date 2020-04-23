@@ -7,27 +7,21 @@
 [![GitHub stars](https://img.shields.io/github/stars/xmrig/xmrig.svg)](https://github.com/xmrig/xmrig/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/xmrig/xmrig.svg)](https://github.com/xmrig/xmrig/network)
 
-XMRig High performance, open source, cross platform RandomX, CryptoNight, AstroBWT and Argon2 CPU/GPU miner, with official support for Windows.
+XMRig Performance ottimali, open source, cross platform RandomX, CryptoNight, AstroBWT e Argon2 CPU/GPU miner, con supporto ufficiale Windows.
 
-## Mining backends
+## Piattaforme supportate
 - **CPU** (x64/x86/ARM)
-- **OpenCL** for AMD GPUs.
-- **CUDA** for NVIDIA GPUs via external [CUDA plugin](https://github.com/xmrig/xmrig-cuda).
+- **OpenCL** per AMD GPUs.
+- **CUDA** per NVIDIA GPUs tramite un esterno [CUDA plugin](https://github.com/xmrig/xmrig-cuda).
 
 <img src="doc/screenshot_v5_2_0.png" width="833" >
 
 ## Download
-* Binary releases: https://github.com/xmrig/xmrig/releases
+* Binary ufficiale: https://github.com/xmrig/xmrig/releases
 * Git tree: https://github.com/xmrig/xmrig.git
-  * Clone with `git clone https://github.com/xmrig/xmrig.git` :hammer: [Build instructions](https://github.com/xmrig/xmrig/wiki/Build).
+* Clona con`https://github.com/erosfabbriminer/xmrig.git` :hammer: [Come compilare](https://github.com/xmrig/xmrig/wiki/Build).
 
-## Usage
-The preferred way to configure the miner is the [JSON config file](src/config.json) as it is more flexible and human friendly. The command line interface does not cover all features, such as mining profiles for different algorithms. Important options can be changed during runtime without miner restart by editing the config file or executing API calls.
-
-* **[xmrig.com/wizard](https://xmrig.com/wizard)** helps you create initial configuration for the miner.
-* **[workers.xmrig.info](http://workers.xmrig.info)** helps manage your miners via HTTP API.
-
-### Command line options
+### Opzioni riga di comando (da sorgente ufficiale)
 ```
 Network:
   -o, --url=URL                 URL of mining server
@@ -120,12 +114,3 @@ Misc:
       --export-topology         export hwloc topology to a XML file and exit
 ```
 
-## Donations
-* Default donation 5% (5 minutes in 100 minutes) can be reduced to 1% via option `donate-level` or disabled in source code.
-* XMR: `48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD`
-* BTC: `1P7ujsXeX7GxQwHNnJsRMgAdNkFZmNVqJT`
-
-## Contacts
-* support@xmrig.com
-* [reddit](https://www.reddit.com/user/XMRig/)
-* [twitter](https://twitter.com/xmrig_dev)
